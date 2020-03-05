@@ -47,5 +47,6 @@ Three params of encode are `String webpImageFilePath,String type,String originIm
 WebpDecoder.decode(webpImageFilePath,"jpg",originImageFilePath);
 ```
 
-
+## License
+[Apache License 2.0](./LICENSE)
 
