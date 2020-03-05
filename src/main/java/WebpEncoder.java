@@ -15,7 +15,7 @@ import java.io.IOException;
  * a webp encoder class to encode webp
  */
 public class WebpEncoder {
-    
+
     /**
      * default method to encode webp image by default compression param
      * @param originImagePath the path of origin image
