@@ -16,7 +16,6 @@ dependencies {
     compile fileTree(dir:'src/main/resources/libs',include:['*.jar'])
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
-    implementation 'org.junit.jupiter:junit-jupiter'
 }
 test {
     useJUnitPlatform()
