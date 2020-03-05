@@ -16,7 +16,7 @@ WebpEncoder.encode(originImageFilePath,webpImageFilePath);
 
 There are two constructor of this class.
 ###### constructor of this class with one param:
-* `compressionMode` the compression mode , you can choose one from`CompressionModes.MODE_EXPLICIT`,`CompressionModes.MODE_DEFAULT`,`CompressionModes.MODE_COPY_FROM_METADATA`, `CompressionModes.MODE_DISABLED`,but only CompressionModes.MODE_EXPLICIT can make the other two params useful
+* `compressionMode` the compression mode , you can choose one from`CompressionModes.MODE_EXPLICIT`,`CompressionModes.MODE_DEFAULT`,`CompressionModes.MODE_COPY_FROM_METADATA`, `CompressionModes.MODE_DISABLED`
 
 the other params would be default
 ```
@@ -24,7 +24,7 @@ EncoderConfig encoderConfig = new EncoderConfig(CompressionModes.MODE_DEFAULT);
 ```
 ###### constructor of this class with three params:
 
-* `compressionMode` the compression mode , you can choose one from`CompressionModes.MODE_EXPLICIT`,`CompressionModes.MODE_DEFAULT`,`CompressionModes.MODE_COPY_FROM_METADATA`, `CompressionModes.MODE_DISABLED`,but only CompressionModes.MODE_EXPLICIT can make the other two params useful
+* `compressionMode` the compression mode , you can choose one from`CompressionModes.MODE_EXPLICIT`,`CompressionModes.MODE_DEFAULT`,`CompressionModes.MODE_COPY_FROM_METADATA`, `CompressionModes.MODE_DISABLED`,but only `CompressionModes.MODE_EXPLICIT` can make the other two params useful
 
 * `compressionType` only compressionMode set to `CompressionModes.MODE_EXPLICIT` can make this params usefulthe compression type , you can choose one from`CompressionTypes.LOSSLESS_COMPRESSION`,`CompressionTypes.LOSSY_COMPRESSION`
 
