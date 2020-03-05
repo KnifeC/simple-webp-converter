@@ -1,12 +1,11 @@
-import Config.CompressionModes;
-import Config.CompressionTypes;
+import Config.CompressionParams.CompressionModes;
+import Config.CompressionParams.CompressionTypes;
 import Config.EncoderConfig;
 import org.junit.jupiter.api.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.LinkOption;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
 
@@ -63,7 +62,7 @@ public class EncodeTest {
             String tmpFile = Paths.get(tmpPath,fileName).toString();
             EncoderConfig encoderConfig = new EncoderConfig(CompressionModes.MODE_EXPLICIT, CompressionTypes.LOSSY_COMPRESSION,1f);
             try {
-                WebpEncoder.encode(file.getAbsolutePath(),tmpFile);
+                WebpEncoder.encode(file.getAbsolutePath(),tmpFile,encoderConfig);
             } catch (IOException e) {
                 e.printStackTrace();
             }

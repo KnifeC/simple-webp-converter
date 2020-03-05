@@ -1,4 +1,4 @@
-import Config.CompressionModes;
+import Config.CompressionParams.CompressionModes;
 import Config.EncoderConfig;
 import com.luciad.imageio.webp.WebPWriteParam;
 

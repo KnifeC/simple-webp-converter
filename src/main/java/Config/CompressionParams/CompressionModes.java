@@ -1,4 +1,4 @@
-package Config;
+package Config.CompressionParams;
 
 public class CompressionModes {
     public static final int MODE_DISABLED = 0;
